@@ -1,0 +1,36 @@
+.sobreMi{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(211, 218, 215);
+  padding: 2rem;
+  border-radius: 5px;
+}
+.sobreMi:hover{
+  -webkit-box-shadow: 0px 10px 8px -10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0px 10px 8px -10px rgba(0,0,0,0.9);
+  box-shadow: 0px 10px 8px -10px rgba(0,0,0,0.9);
+}
+.sobreMi h2{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.sobreMi p{
+  font-size: 1.1rem;
+}
+
+.sobreMi a{
+  text-decoration: none;
+  color: #36D1DC;
+}
+.sobreMi a:hover{
+  color: #5B86E5;
+}
+@media(max-width: 768px){
+  .sobreMi{
+    width: 90%;
+  }
+}
